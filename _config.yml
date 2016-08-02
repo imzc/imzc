@@ -6,7 +6,7 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            I am ZC
+title:            Chen's Blog
 tagline:          'Web Developer HTML5 Canvas dotnet'
 description:      'I am ZC, and I am a Web Developer'
 url:              http://imzc.me
@@ -17,9 +17,6 @@ author:
   url:            https://imzc.me
 
 paginate:         5
-
-# Custom vars
-version:          2.1.0
 
 github:
   repo:           https://github.com/zcxp
