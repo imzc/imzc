@@ -31,6 +31,6 @@ h1{
 
 The `h1` will take the color `purple` instead of `green`.
 
-    The inherit CSS-value causes the element for which it is specified to take the computed value of the property from its parent element. It is allowed on every CSS property.
+> The inherit CSS-value causes the element for which it is specified to take the computed value of the property from its parent element. It is allowed on every CSS property.
 
 That's it.
