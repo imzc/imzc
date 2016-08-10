@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Add Headers for Static Files with ASP.NET core"
+title:  "Add Headers for Static Files with ASP.NET Core"
 date:   2016-08-10 22:42:35 +0800
 categories: dotnet
 ---
