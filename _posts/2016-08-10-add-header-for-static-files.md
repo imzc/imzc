@@ -15,7 +15,7 @@ If you use `Microsoft.AspNetCore.StaticFiles` to handle static file requests, yo
 
 Then what we need to do is add an Option like this:
 
-```CSharp
+```C#
 app.UseStaticFiles(new StaticFileOptions()
 {
     OnPrepareResponse = context =>
@@ -28,7 +28,7 @@ Done!
 
 `StaticFileOptions` has some other properties to customize the StaticFileMiddleware behavior.
 
-```CSharp
+```C#
 //
 //     Used to map files to content-types.
 public IContentTypeProvider ContentTypeProvider { get; set; }
