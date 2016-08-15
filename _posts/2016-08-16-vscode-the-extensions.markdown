@@ -7,5 +7,5 @@ categories: ide,vscode
 
 ## 系列目录
 - [核心架构](/ide,vscode/2016/08/15/vscode-the-architecture/)
-- [插件系统](/ide,vscode/2016/08/15/vscode-the-extensions/)
-- [Wing 对 VS Code 的扩展](/ide,vscode/2016/08/15/wing-vs-vscode/)
+- [插件系统](/ide,vscode/2016/08/16/vscode-the-extensions/)
+- [Wing 对 VS Code 的扩展](/ide,vscode/2016/08/17/wing-vs-vscode/)
