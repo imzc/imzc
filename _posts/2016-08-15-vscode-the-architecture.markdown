@@ -2,13 +2,13 @@
 layout: post
 title:  "Visual Studio Code / Egret Wing 技术架构：基础"
 date:   2016-08-15 22:42:35 +0800
-categories: dotnet
+categories: ide,vscode
 ---
 
 ## 系列目录
-- [核心架构](2016-08-15-vscode-the-architecture.markdown)
-- [插件系统](2016-08-16-vscode-the-extensions.markdown)
-- [Wing 对 VS Code 的扩展](2016-08-17-wing-vs-vscode.markdown)
+- [核心架构](/ide/2016/08/15/vscode-the-architecture/)
+- [插件系统](/ide/2016/08/15/vscode-the-extensions/)
+- [Wing 对 VS Code 的扩展](/ide/2016/08/15/wing-vs-vscode/)
 
 ## VS Code 简单介绍
 
@@ -16,11 +16,11 @@ Visual Studio Code (下面简称VSC) 是由微软公司开发的开源、免费�
 
 VSC Team 由著名工程师 Erich Gamma 领导，Erich 是《设计模式》作者之一，Eclipse 之父，拥有多年的 IDE 开发经验。 
 
-![Erich Gamma](images/erich.jpg)
+![Erich Gamma](/images/erich.jpg)
 
 VSC 的前身是微软基于云端的编辑器项目：Monaco 编辑器，它作为微软云服务的一部分，提供在线编辑源代码的能力。
 
-![Monaco 编辑器](images/monaco.png)
+![Monaco 编辑器](/images/monaco.png)
 
 由于云端编辑器的种种限制，和微软近年来对Windows外平台的态度转变，微软决定由它扩展开发为一个全平台通用的代码编辑器。
 
@@ -69,6 +69,7 @@ VSC 采用多进程架构, VSC 可以拆分成几大块：
 此外后台进程还会开启一个本地的 Socket，当有新的 VSC 进程启动的时候，会尝试连接这个 Socket，并将启动的参数信息传递给它，由已经存在的 VSC 来执行相关的动作，这样能够保证 VSC 的唯一性，避免出现多开文件夹带来的问题。
 
 ### 编辑器窗口
+
 
 
 VSC team 做了很多工作来提高 VSC 代码编辑器的性能。代码显示的虚拟化，让编辑器只渲染可见的部分，减小大文件编辑对浏览器的压力。
