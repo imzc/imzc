@@ -6,9 +6,9 @@ categories: ide,vscode
 ---
 
 ## 系列目录
-- [核心架构](/ide/2016/08/15/vscode-the-architecture/)
-- [插件系统](/ide/2016/08/15/vscode-the-extensions/)
-- [Wing 对 VS Code 的扩展](/ide/2016/08/15/wing-vs-vscode/)
+- [核心架构](/ide,vscode/2016/08/15/vscode-the-architecture/)
+- [插件系统](/ide,vscode/2016/08/15/vscode-the-extensions/)
+- [Wing 对 VS Code 的扩展](/ide,vscode/2016/08/15/wing-vs-vscode/)
 
 ## VS Code 简单介绍
 
@@ -16,11 +16,11 @@ Visual Studio Code (下面简称VSC) 是由微软公司开发的开源、免费�
 
 VSC Team 由著名工程师 Erich Gamma 领导，Erich 是《设计模式》作者之一，Eclipse 之父，拥有多年的 IDE 开发经验。 
 
-![Erich Gamma](/images/erich.jpg)
+![Erich Gamma](/public/images/erich.jpg)
 
 VSC 的前身是微软基于云端的编辑器项目：Monaco 编辑器，它作为微软云服务的一部分，提供在线编辑源代码的能力。
 
-![Monaco 编辑器](/images/monaco.png)
+![Monaco 编辑器](/public/images/monaco.png)
 
 由于云端编辑器的种种限制，和微软近年来对Windows外平台的态度转变，微软决定由它扩展开发为一个全平台通用的代码编辑器。
 
