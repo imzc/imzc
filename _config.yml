@@ -8,13 +8,13 @@ permalink:        pretty
 # Setup
 title:            Chen's Blog
 tagline:          'Web Developer HTML5 Canvas dotnet'
-description:      'I am ZC, and I am a Web Developer'
+description:      'I am Chen, a Web Developer'
 url:              http://imzc.me
 baseurl:          /
 
 author:
   name:           'Chen Zhang'
-  url:            https://imzc.me
+  url:            http://imzc.me
 
 paginate:         5
 
