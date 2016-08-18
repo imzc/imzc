@@ -14,6 +14,8 @@ categories: ide,vscode
 
 Visual Studio Code (下面简称VSC) 是由微软公司开发的开源、免费、跨平台的代码编辑器，微软希望它在保持核心轻量化文本编辑器的基础上，为编辑器添加项目支持、智能感知和编译调试。
 
+![](/public/images/codevside.png)
+
 VSC Team 由著名工程师 Erich Gamma 领导，Erich 是《设计模式》作者之一，Eclipse 之父，拥有多年的 IDE 开发经验。 
 
 ![Erich Gamma](/public/images/erich.jpg)
@@ -127,4 +129,4 @@ Debugger 插件跟普通的插件有一点区别，它不运行在插件进程�
 
 搜索是一个十分耗时的任务，VSC 也使用的单独的进程来实现这个功能，保证主窗口的效率。
 
-将耗时的任务分到多个进程中，有效的保证了主进程的响应速度。
+**将耗时的任务分到多个进程中，有效的保证了主进程的响应速度。**
