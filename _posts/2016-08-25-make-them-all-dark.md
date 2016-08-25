@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "让世界变沉静 - 让 Web 开发环境全面黑化"
+title: "少点光芒 - 让 Web 开发环境全面黑化"
 date:   2016-08-25 22:42:35 +0800
 categories: dev
 ---
