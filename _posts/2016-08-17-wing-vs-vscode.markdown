@@ -3,7 +3,6 @@ layout: post
 title:  "Visual Studio Code / Egret Wing 技术架构：Wing 对 VS Code 的扩展"
 date:   2016-08-17 22:42:35 +0800
 categories: dev
-tags:[ide,vscode]
 ---
 
 ## 系列目录

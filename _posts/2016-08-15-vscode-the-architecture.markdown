@@ -3,7 +3,6 @@ layout: post
 title:  "Visual Studio Code / Egret Wing 技术架构：基础"
 date:   2016-08-15 22:42:35 +0800
 categories: dev
-tags:[ide,vscode]
 ---
 
 ## 系列目录
