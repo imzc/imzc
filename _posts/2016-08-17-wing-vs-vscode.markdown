@@ -2,13 +2,14 @@
 layout: post
 title:  "Visual Studio Code / Egret Wing 技术架构：Wing 对 VS Code 的扩展"
 date:   2016-08-17 22:42:35 +0800
-categories: ide,vscode
+categories: dev
+tags:[ide,vscode]
 ---
 
 ## 系列目录
-- [核心架构](/ide,vscode/2016/08/15/vscode-the-architecture/)
-- [插件系统](/ide,vscode/2016/08/16/vscode-the-extensions/)
-- [Wing 对 VS Code 的扩展](/ide,vscode/2016/08/17/wing-vs-vscode/)
+- [核心架构](/dev/2016/08/15/vscode-the-architecture/)
+- [插件系统](/dev/2016/08/16/vscode-the-extensions/)
+- [Wing 对 VS Code 的扩展](/dev/2016/08/17/wing-vs-vscode/)
 
 Wing 的主要使命是进行可视化的游戏开发，但 VSC 现有的插件系统并不能满足可视化开发的需求，所以 Wing 对 VSC 进行了一系列扩展。
 
