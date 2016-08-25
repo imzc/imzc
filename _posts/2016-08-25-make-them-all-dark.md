@@ -23,7 +23,7 @@ Chrome DevTools 是 Web 开发者必不可少的工具，借助一款 Extension 
 ### 安装步骤
 
 - 安装该 Extension 
-- 打开 [chrome://flags/#enable-devtools-experiments](chrome://flags/#enable-devtools-experiments) 启用 `开发者工具实验性功能`，重启 Chrome。
+- 打开 `chrome://flags/#enable-devtools-experiments` 启用 `开发者工具实验性功能`，重启 Chrome。
 - 打开 Chrome DevTools, 选择 `Experiments` 标签, 选中 'Allow custom UI themes'.
 
 ![](/public/images/devtools-setting.png)
@@ -55,7 +55,7 @@ Windows 提供了主题机制，但是，只限于官方主题，大部分就是
 Mac OS 目前支持让 Dock 和 Menu 变反色，知道让 Finder 变深色方法的话请告诉我。
 
 
-> Have fun!
+> have fun!
 
 
 
