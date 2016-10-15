@@ -74,11 +74,11 @@ categories: tools
 大体了解了整个项目的结构，让我们来看一下实际运行的效果。在 VS Code 中直接按 F5 即可启动调试。VS Code 会
 启动一个新的 VS Code 窗口，在这个窗口中会额外加载我们的插件项目以便我们进行测试。
 
-![debug host](http://imzc.me/public/images/openchina2016/1command.png)
+![debug host](http://imzc.me/public/images/openchina2016/1run.png)
 
 我们按 `F1` 或者 `ctrl+shift+p` 输入 hello 就能发现我们刚刚注册的 command。
 
-![debug host](http://imzc.me/public/images/openchina2016/1run.png)
+![debug host](http://imzc.me/public/images/openchina2016/1command.png)
 
 执行这个 command 可以看到此时，我们项目调试控制台输出 
 `Congratulations, your extension "vscode-extension" is now active!` 插件的 `activate` 方法被调用。
@@ -97,7 +97,7 @@ VS Code 才会真正开始执行我们的代码。
 
 ## 字段定义
 
-名称 | 必需 | 类型 | 描述
+名称   |   必需   |   类型   |   描述
 ---- |:--------:| ---- | ------
 `name` | 是 | `string` | 插件扩展的名称, 全部是小写字母，并且不能有空格.
 `version` | 是 | `string` | 参考[Semver](http://semver.org/lang/zh-CN/). 例如: `1.0.0`
@@ -128,7 +128,7 @@ VS Code 才会真正开始执行我们的代码。
 
 可使用下列字段：
 
-名称 | 必需 | 类型 | 描述
+名称    | 必需   | 类型   | 描述
 ---- |:--------:| ---- | ------
 `command` | 是 | `string` | 表示命令的唯一id.
 `title` | 是 | `string` | 表示命令的名称，此属性将显示在命令面板中.
