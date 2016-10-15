@@ -11,6 +11,8 @@ For example, if we want to allow third-party website to access images or audios
 through XHR (it's usefull when you want to do some custom decoding with these files). 
 You need to add `Access-Control-Allow-Origin: *` (relpace `*` with your domain if you don't realy want to allow any domain to access).
 
+<!--more-->
+
 If you use `Microsoft.AspNetCore.StaticFiles` to handle static file requests, you should find `app.UseStaticFiles()` in startup.cs.
 
 Then what we need to do is add an Option like this:

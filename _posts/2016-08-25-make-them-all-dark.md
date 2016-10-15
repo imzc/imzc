@@ -16,6 +16,8 @@ categories: dev
 
 Chrome DevTools 是 Web 开发者必不可少的工具，借助一款 Extension 我们能够很容易将它改造成深色。
 
+<!--more-->
+
 [DevTools Theme: Zero Dark Matrix](https://chrome.google.com/webstore/detail/devtools-theme-zero-dark/bomhdjeadceaggdgfoefmpeafkjhegbo)
 
 ![](/public/images/devtools.png)

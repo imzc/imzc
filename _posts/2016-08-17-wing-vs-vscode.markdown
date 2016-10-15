@@ -19,6 +19,8 @@ Wing 的主要使命是进行可视化的游戏开发，但 VSC 现有的插件�
 - 遵循 VSC 内部组件的注册和管理方式
 - 保证 Wing 跟新版本 VSC 的兼容性
 
+<!--more-->
+
 # UI 改动
 
 VSC 的 UI 是由一个个 `Part` 组成的，每个 `Part` 由 `Workbanch` 统一管理，由 `WorkbanchLayout` 负责布局。每个 `Part` 功能独立，改变布局并不会对功能产生影响。添加新的 `Part` 可以为 Wing 添加新的功能比如右边栏和工具栏。

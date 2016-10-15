@@ -18,6 +18,8 @@ Visual Studio Code (下面简称VSC) 是由微软公司开发的开源、免费�
 
 VSC Team 由著名工程师 Erich Gamma 领导，Erich 是《设计模式》作者之一，Eclipse 之父，拥有多年的 IDE 开发经验。 
 
+<!--more-->
+
 ![Erich Gamma](/public/images/erich.jpg)
 
 VSC 的前身是微软基于云端的编辑器项目：Monaco 编辑器，它作为微软云服务的一部分，提供在线编辑源代码的能力。
