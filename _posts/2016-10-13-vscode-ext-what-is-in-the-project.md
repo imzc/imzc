@@ -10,7 +10,7 @@ categories: tools
 * [VS Code 插件项目结构与配置文件](/tools/2016/10/14/vscode-ext-what-is-in-the-project/)
 * [VS Code 插件示例，一个 TypeScript 即时预览插件](/tools/2016/10/15/vscode-ext-typescript-live-preview/)
 
-# VS Code Extension 项目结构
+## VS Code Extension 项目结构
 
 打开 yo code 创建的项目，我们能看到下面的目录结构。
 ![yo code output](http://imzc.me/public/images/openchina2016/project.jpg)

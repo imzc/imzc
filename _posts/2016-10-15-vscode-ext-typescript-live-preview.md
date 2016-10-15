@@ -10,7 +10,7 @@ categories: tools
 * [VS Code 插件项目结构与配置文件](/tools/2016/10/14/vscode-ext-what-is-in-the-project/)
 * [VS Code 插件示例，一个 TypeScript 即时预览插件](/tools/2016/10/15/vscode-ext-typescript-live-preview/)
 
-# 插件目标
+## 插件目标
 
 这个插件最终的效果，希望是能够在编辑 TypeScript 时，能够即时在 HTML 中运行，看到运行效果。
 
@@ -20,6 +20,8 @@ categories: tools
 2. 需要在用户输入的时候即时编译 TypeScript
 3. 需要注册 command 在 VS Code 中打开一个 WebView
 4. 在 WebView 中加载编译后的 JavaScript
+
+<!--more-->
 
 ## 创建项目
 

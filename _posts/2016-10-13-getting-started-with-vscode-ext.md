@@ -16,7 +16,7 @@ VS Code 使用 Node.js 来开发插件，插件运行在单独的 Node.js 进程
 * [VS Code 核心架构](/dev/2016/08/15/vscode-the-architecture/)
 * [VS Code 插件系统的能力](/dev/2016/08/16/vscode-the-extensions/)
 
-# VS Code 插件创建与发布
+## VS Code 插件创建与发布
 
 
 ## 创建项目
