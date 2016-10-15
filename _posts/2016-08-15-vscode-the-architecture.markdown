@@ -10,7 +10,7 @@ categories: dev
 - [插件系统](/dev/2016/08/16/vscode-the-extensions/)
 - [Wing 对 VS Code 的扩展](/dev/2016/08/17/wing-vs-vscode/)
 
-# VS Code 简单介绍
+## VS Code 简单介绍
 
 Visual Studio Code (下面简称VSC) 是由微软公司开发的开源、免费、跨平台的代码编辑器，微软希望它在保持核心轻量化文本编辑器的基础上，为编辑器添加项目支持、智能感知和编译调试。
 
