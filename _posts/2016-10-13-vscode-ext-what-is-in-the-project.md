@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "(2) VS Code 插件项目结构与配置文件"
+title: "2) VS Code 插件项目结构与配置文件"
 date:   2016-10-14 20:12:45 +0800
 categories: tools
 ---
 
 
-* [(1) VS Code 插件创建与发布](/tools/2016/10/13/getting-started-with-vscode-ext/)
-* (2) VS Code 插件项目结构与配置文件
-* [(3) VS Code 插件示例，一个 TypeScript 即时预览插件](/tools/2016/10/15/vscode-ext-typescript-live-preview/)
+* [1) VS Code 插件创建与发布](/tools/2016/10/13/getting-started-with-vscode-ext/)
+* 2) VS Code 插件项目结构与配置文件
+* [3) VS Code 插件示例，一个 TypeScript 即时预览插件](/tools/2016/10/15/vscode-ext-typescript-live-preview/)
 
 ## VS Code Extension 项目结构
 
