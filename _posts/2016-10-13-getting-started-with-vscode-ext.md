@@ -8,8 +8,8 @@ categories: tools
 我会通过几篇文章介绍一下 VS Code 的插件开发。
 
 * [VS Code 插件创建与发布](/tools/2016/10/13/getting-started-with-vscode-ext/)
-* [VS Code 插件项目结构与配置文件](/tools/2016/10/13/vscode-ext-what-is-in-the-project/)
-* [VS Code 插件示例，一个 TypeScript 即时预览插件](/tools/2016/10/13/vscode-ext-typescript-live-preview/)
+* [VS Code 插件项目结构与配置文件](/tools/2016/10/14/vscode-ext-what-is-in-the-project/)
+* [VS Code 插件示例，一个 TypeScript 即时预览插件](/tools/2016/10/15/vscode-ext-typescript-live-preview/)
 
 VS Code 使用 Node.js 来开发插件，插件运行在单独的 Node.js 进程中。
 你可以看这里了解更多 VS Code 插件系统的信息：
