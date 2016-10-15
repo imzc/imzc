@@ -16,6 +16,7 @@ categories: tools
 ![yo code output](http://imzc.me/public/images/openchina2016/project.jpg)
 
 展开之后得到的是下面的层级结构（我省略了大部分用于测试的 node_modules）。
+
 ```
 ├─.vscode
 │      launch.json
