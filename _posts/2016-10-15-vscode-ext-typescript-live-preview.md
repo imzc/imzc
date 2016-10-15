@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "VS Code 插件示例，一个 TypeScript 即时预览插件"
+title: "(3) VS Code 插件示例，一个 TypeScript 即时预览插件"
 date:   2016-10-15 22:15:45 +0800
 categories: tools
 ---
 
 
-* [VS Code 插件创建与发布](/tools/2016/10/13/getting-started-with-vscode-ext/)
-* [VS Code 插件项目结构与配置文件](/tools/2016/10/14/vscode-ext-what-is-in-the-project/)
-* [VS Code 插件示例，一个 TypeScript 即时预览插件](/tools/2016/10/15/vscode-ext-typescript-live-preview/)
+* [(1) VS Code 插件创建与发布](/tools/2016/10/13/getting-started-with-vscode-ext/)
+* [(2) VS Code 插件项目结构与配置文件](/tools/2016/10/14/vscode-ext-what-is-in-the-project/)
+* (3) VS Code 插件示例，一个 TypeScript 即时预览插件
 
 ## 插件目标
 
