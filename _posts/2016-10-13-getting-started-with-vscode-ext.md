@@ -77,7 +77,7 @@ vsce publish
 需要注意的是，在执行命令之前你需要注册一个 [Visual Studio Team Services](https://www.visualstudio.com/en-us/get-started/setup/sign-up-for-visual-studio-online) 账号，
 并对 vsce 进行一些设置。具体请参考 [vscode vsce 官方文档](https://code.visualstudio.com/docs/tools/vscecli)。
 
-
+我们继续看一下 [VS Code 插件项目的结构与配置文件](/tools/2016/10/13/vscode-ext-what-is-in-the-project/)
 
 
 
