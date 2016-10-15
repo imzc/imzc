@@ -23,7 +23,7 @@ VS Code 使用 Node.js 来开发插件，插件运行在单独的 Node.js 进程
 
 vscode team 开发了 [Yeoman generator](https://github.com/Microsoft/vscode-generator-code) 帮助大家快速开始创建一个 vscode extension.
 
-
+<!--more-->
 ### 安装生成器
 
 ```bash

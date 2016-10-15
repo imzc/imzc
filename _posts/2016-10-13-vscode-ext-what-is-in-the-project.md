@@ -15,6 +15,8 @@ categories: tools
 打开 yo code 创建的项目，我们能看到下面的目录结构。
 ![yo code output](http://imzc.me/public/images/openchina2016/project.jpg)
 
+<!--more-->
+
 展开之后得到的是下面的层级结构（我省略了大部分用于测试的 node_modules）。
 
 ```

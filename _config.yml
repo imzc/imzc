@@ -11,6 +11,7 @@ tagline:          'Web Developer HTML5 Canvas dotnet'
 description:      'I am Chen, a Web Developer'
 url:              http://imzc.me
 baseurl:          /
+excerpt_separator: <!--more-->
 
 author:
   name:           'Chen Zhang'
