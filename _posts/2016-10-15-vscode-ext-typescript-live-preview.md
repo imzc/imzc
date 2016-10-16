@@ -10,7 +10,7 @@ categories: tools
 * [2) VS Code 插件项目结构与配置文件](/tools/2016/10/14/vscode-ext-what-is-in-the-project/)
 * 3) VS Code 插件示例，一个 TypeScript 即时预览插件
 
-> 源代码：https://github.com/imzc/vscode-live-code
+> 源代码：[https://github.com/imzc/vscode-live-code](https://github.com/imzc/vscode-live-code)
 
 ## 插件目标
 
