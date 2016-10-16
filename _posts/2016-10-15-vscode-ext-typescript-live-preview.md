@@ -11,6 +11,7 @@ categories: tools
 * 3) VS Code 插件示例，一个 TypeScript 即时预览插件
 
 > 源代码：https://github.com/imzc/vscode-live-code
+
 ## 插件目标
 
 这个插件最终的效果，希望是能够在编辑 TypeScript 时，能够即时在 HTML 中运行，看到运行效果。
