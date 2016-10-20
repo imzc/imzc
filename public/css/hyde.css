@@ -99,7 +99,9 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 .sidebar-nav-item img {
-  height: 35px;
+  vertical-align: top;
+  display: inline;
+  margin: 0;
 }
 
 /* Sticky sidebar
