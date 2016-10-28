@@ -26,6 +26,8 @@ export class PagerComponent {
 但是，我们的 Pager 不应该只是一个展示数据的组件，当用户点击新 page 的时候，
 我们需要在父组件中执行相应的动作。也就是说，`current` 属性需要双向绑定。
 
+<!--more-->
+
 ## Twe-way binding property
 
 在 ng2 中可以通过 `Output` 装饰器来实现双向绑定属性。
