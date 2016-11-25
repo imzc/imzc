@@ -39,7 +39,7 @@ TS 项目是通过 tsconfig.json 来定义的. 很多时候如果你的 IDE 没�
 }
 
 ```
-#### compilerOptions 编译选项
+**compilerOptions 编译选项**
 
 先说一下对 TS 项目来说最重要的两个设置
 
@@ -56,7 +56,7 @@ TS 项目是通过 tsconfig.json 来定义的. 很多时候如果你的 IDE 没�
 或者 [TS 编译参数(社区中文)](http://tslang.cn/docs/handbook/compiler-options.html)
 
 
-#### 其他配置项
+**其他配置项**
 
 默认情况下, TS 项目会包含 该目录下所有的 `ts`, `tsx`, `.d.ts` 文件. 我们可以通过
 `files`, `include` 和 `exclude` 来指定哪些文件应该在项目中.
@@ -82,6 +82,9 @@ TS 项目是通过 tsconfig.json 来定义的. 很多时候如果你的 IDE 没�
 }
 ```
 
+`files` 一般单独使用, 穷举中所有要包含的 ts 文件, 我觉得, 定这么个规则还是挺需要勇气的. 在社区吐槽了 n 年后, TS team 才终于加上了
+`include`,`exclude`.
+
 现在你已经大致了解 TS 项目是什么样子的了. 我们接下来按照 JS 发展的历史, 从简单到复杂来介绍
 用 TS 如何更爽的开发 web 应用.
 
@@ -93,7 +96,7 @@ TS 项目是通过 tsconfig.json 来定义的. 很多时候如果你的 IDE 没�
 很常见. 然后页面再卡一段时间😩. 
 
 因为没有模块化的组织方式,页面要加载哪些 JS 文件都是手动写在 html 中的, 而且顺序还不能错 😩. 
-这就是 tsconfig 最先支持 `files` 的原因 (是的, 一开始是没有 include 和 exclude 的, 苦啊). 
+这就是 tsconfig 最先支持 `files` 的原因 (再次吐槽没有 include 和 exclude ). 
 
 ### 一个最基本的 TS 项目
 
@@ -194,6 +197,22 @@ var components;
 从这段 JS 我们也能看出另外一个特性, 就是同名的 `namespace` 是可以分布在不同的文件中的.
 所有 `export` 的属性都会合并到这个 `namespace` 中.
 
+此外, namespace 是能够嵌套的, 下面的代码都是合法的
+
+```typescript
+namespace components { 
+    export namespace web { 
+        export var form: HTMLFormElement;
+    }
+}
+
+namespace components.electron { 
+    export var form: HTMLFormElement;
+}
+```
+
+
+
 ## NodeJS 以及其他模块化组织的项目
 
 近几年 NodeJS 异军突起, 凭借良好的群众基础, 迅速占领了大片乡村, 有要与 PHP Java 大军决一死战的意思. 
@@ -201,7 +220,7 @@ var components;
 
 NodeJS 所在的环境跟浏览器有非常大的不同. 所有的 JS 都在运行时本地. 代码加载起来没有任何障碍.
 所以 NodeJS 采用了 CommonJS 组织代码. 每个 JS 文件都是一个 module, 通过 `exports.xxx = xxx` 
-来公开属性, 用 require 加载其他 JS.
+来公开属性, 用 require 加载其他 JS, 加载过程是同步阻塞的. 总的来说 CommonJS 是一种比较简单的加载方式.
 
 让我们把 tsconfig.json 稍加修改,添加 `"module": "commonjs"`.
 
@@ -219,7 +238,7 @@ export class DatePicker {
     popup() { }
 }
 ```
-区别于普通 CommonJS 的导出方式, TS 直接在需要导出的变量前加 `export` 即可.
+区别于普通 CommonJS 的导出方式, TS 直接在需要导出的变量 / class 前加 `export` 即可.
 
 在 index.ts 中引用 `DatePicker` 的写法有很多, 先写一个经典的
 
@@ -240,7 +259,7 @@ var datePicker = new components.DatePicker(null);
 import { DatePicker } from './date-picker';
 var datePicker = new DatePicker(null);
 ```
-因为我们指定了 JS module 为 `CommonJS` 生成的代码就是 CommonJS 风格的
+因为我们在 tsconfig.json 中指定了 module 为 `CommonJS` 生成的代码就是 CommonJS 风格的
 
 ```javascript
 "use strict";
